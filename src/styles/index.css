@@ -1,11 +1,62 @@
-/* 
+body {
+    background: gray;
+    margin-top: 100px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#red {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-Radius: 50%;
+}
 
-*/
+#yellow {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-Radius: 50%;
+}
+
+#green {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-Radius: 50%;
+}
+
+#purple {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    border-Radius: 50%;
+}
+
+.lightWhite {
+    width: 100px;
+    height: 100px;
+    border-Radius: 50%;
+    box-shadow: 0 0 30px 10px white;
+  }
+
+  button {
+    background-color: aqua;
+    margin-left: 50px;
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 120px;
+    height: auto;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px;
+  }

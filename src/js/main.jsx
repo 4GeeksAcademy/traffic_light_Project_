@@ -9,10 +9,12 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import Home from './Home';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+import TrafficLight from './components/Signals';
+
+ReactDOM.createRoot(document.getElementById('main')).render(
+    <React.StrictMode>
+        < Home />
+    </React.StrictMode>
+);
