@@ -19,3 +19,5 @@ export default Home;
 // pero al final todo termino en un solo componente, lo mismo ocurrio con la luz purpura que en principio la
 // iba a poner en un componente aparte pero vi que me daba un error y
 // con el mismo codigo no me la daba acoplando todo en uno
+
+//Comentario añadido para la entrega de Proyecto Lineamientos
